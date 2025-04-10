@@ -1,0 +1,27 @@
+.header{
+  display: flex;
+  justify-content: flex-end;
+  background-color: antiquewhite;
+}
+.header-container{
+  display: flex;
+  text-decoration: none;
+  margin-right: 150px;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-header{
+  list-style: none;
+  margin-right: 20px;
+}
+
+.item-header a{
+  text-decoration: none;
+  padding: 5px;
+}
+
+a:hover{
+  background-color: black;
+}
