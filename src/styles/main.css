@@ -19,9 +19,7 @@ main {
   text-align: center;
 }
 
-.main-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+.container p{
+  margin-top: -15px;
+  color: white;
 }
