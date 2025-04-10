@@ -1,7 +1,7 @@
 .header{
   display: flex;
   justify-content: flex-end;
-  background-color: antiquewhite;
+  background-color: transparent;
 }
 .header-container{
   display: flex;
@@ -20,8 +20,10 @@
 .item-header a{
   text-decoration: none;
   padding: 5px;
+  border-radius: 5px;
 }
 
 a:hover{
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.068);
+  color: black;
 }
