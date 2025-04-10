@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    position: relative;
+  }
+  
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(-45deg, #fd44b3, #7873f5, #4adede, #ff6ec4);
+    background-size: 400% 400%;
+    animation: gradientMove 15s ease infinite;
+    transform: scale(2);
+    z-index: -1;
+    pointer-events: none;
+  }
+  
+  @keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
